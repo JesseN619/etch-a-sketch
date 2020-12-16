@@ -1,0 +1,23 @@
+#container {
+    display: grid;
+    height: 650px;
+    width: 650px;
+    grid-template-columns: repeat(16, auto);
+    grid-template-rows: repeat(16, auto);
+    margin: 0 auto;
+}
+
+.squares {
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
+
+#button-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.button {
+    margin: 0 10px;
+}
